@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d50451-0037-4256-a56f-ca8a66a0db7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/four-clojure/solutions.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/four-clojure/solutions.clj" afterPath="$PROJECT_DIR$/src/four-clojure/solutions.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -43,28 +42,28 @@
       <file leaf-file-name="umbrellas.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/combination/umbrellas.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
+            <state relative-caret-position="616">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solutions.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="solutions.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/four-clojure/solutions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="604">
+              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,10 +88,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1508439822922" expanded="true" signature="49809:49851" ph="..." />
-                <marker date="1508439822922" expanded="true" signature="49809:49869" ph="..." />
-                <marker date="1508439822922" expanded="true" signature="49809:49882" ph="..." />
-                <marker date="1508439822922" expanded="true" signature="49809:49897" ph="..." />
+                <marker date="1508505135593" expanded="true" signature="50368:50387" ph="..." />
+                <marker date="1508505135593" expanded="true" signature="50368:50405" ph="..." />
+                <marker date="1508505135593" expanded="true" signature="50368:50418" ph="..." />
+                <marker date="1508505135593" expanded="true" signature="50368:50433" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/4clojure/solutions.clj" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/four-clojure/solutions.clj" />
       </list>
     </option>
   </component>
@@ -184,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,13 +203,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="combination" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="four-clojure" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +229,7 @@
       <recent name="$PROJECT_DIR$/src/exercises/combination/" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1508439951216">{:repl-history {:ide [], :local [{:command &quot;(some neg? '(1 2 -3))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(some neg? '(1 2 3))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(pos? 0)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(pos? 1)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(drop 2 '(1 2 3))&quot;, :offset 17, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1508505260553">{:repl-history {:ide [], :local [{:command &quot;(some neg? '(1 2 -3))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(some neg? '(1 2 3))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(pos? 0)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(pos? 1)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(drop 2 '(1 2 3))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(in-ns 'four-clojure)&quot;, :offset 21, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -388,8 +394,8 @@
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -480,10 +486,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508439822922" expanded="true" signature="49809:49851" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49869" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49882" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49897" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50387" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50405" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50418" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -563,10 +569,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508439822922" expanded="true" signature="49809:49851" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49869" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49882" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49897" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50387" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50405" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50418" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -654,10 +660,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508439822922" expanded="true" signature="49809:49851" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49869" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49882" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49897" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50387" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50405" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50418" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -794,10 +800,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508439822922" expanded="true" signature="49809:49851" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49869" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49882" ph="..." />
-            <marker date="1508439822922" expanded="true" signature="49809:49897" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50387" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50405" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50418" ph="..." />
+            <marker date="1508505135593" expanded="true" signature="50368:50433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -821,6 +827,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/combination/umbrellas.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four-clojure/solutions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -829,30 +859,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/combination/umbrellas.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/four-clojure/solutions.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

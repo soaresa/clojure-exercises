@@ -1,20 +1,54 @@
 (ns four-clojure.solutions)
 
 ;; #20 Write a function which returns the second to last element from a sequence.
-#(nth %1 (- (count %1) 2))
-#(second (reverse %1))
+#(nth % (- (count %) 2))
+#(second (reverse %))
 
 ;; #21 Write a function which returns the Nth element from a sequence.
 #(last (take (+ %2 1) %1))
 
 ;; #22 Write a function which returns the total number of elements in a sequence.
-#(reduce (fn [c number] (inc c)) 0 %1)
+#(reduce (fn [c number] (inc c)) 0 %)
 
 ;; #23 Write a function which reverses a sequence.
-#(reduce (fn [initial x] (conj initial x)) '() %1)
+#(reduce (fn [initial x] (conj initial x)) '() %)
 
 ;; #24 Write a function which returns the sum of a sequence of numbers.
-#(apply + %1)
+#(apply + %)
 
 ;; #25 Write a function which returns only the odd numbers from a sequence.
-(fn [s] (filter #(> (rem %1 2) 0) s))
+(fn [s] (filter #(> (rem % 2) 0) s))
+
+;; #26 Write a function which returns the first X fibonacci numbers.
+#(take % ((fn fib[x y] (cons x (lazy-seq (fib y (+ x y))))) 1 1))
+
+;; #27 Write a function which returns true if the given sequence is a palindrome.
+#(= (seq %) (reverse %))
+
+;; #28 Write a function which flattens a sequence.
+(fn flat [[x & xr]]
+  (cond
+    (nil? x) '()
+    (coll? x) (concat (flat x) (flat xr))
+    :else (cons x (flat xr))))
+
+;; #29 Write a function which takes a string and returns a new string containing only the capital letters.
+(fn [txt]
+  (clojure.string/join "" (filter (fn [ch] (Character/isUpperCase ch)) txt)))
+#(reduce str (re-seq #"[A-Z]" %))
+
+;; #30 Write a function which removes consecutive duplicates from a sequence.
+#(reverse
+   (reduce
+     (fn [initial a]
+       (if (not= a (first initial))
+         (conj initial a)
+         initial))
+     '() %))
+
+;; #38 Write a function which takes a variable number of parameters and returns the maximum value.
+(fn [x & xs] (reduce #(if (< %1 %2) %2 %1) x xs))   ;; O(N)
+(fn [& xs] (last (sort xs)))                        ;; O(logN)
+
+
+
