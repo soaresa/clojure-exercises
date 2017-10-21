@@ -46,9 +46,42 @@
          initial))
      '() %))
 
+;; #31 Write a function which packs consecutive duplicates into sub-lists.
+#(partition-by identity %)
+
+;; #32 Write a function which duplicates each element of a sequence.
+#(reverse
+   (reduce
+     (fn [initial a]
+       (cons a (cons a initial)))
+     '()
+     %))
+
+;; #33 Write a function which replicates each element of a sequence a variable number of times.
+(fn [s n]
+  (reduce
+    (fn [result x]
+      (concat result (replicate n x)))
+    '()
+    s))
+
+;; #34 Write a function which creates a list of all integers in a given range.
+(fn [a b] (take (- b a) (iterate inc a)))
+
+
 ;; #38 Write a function which takes a variable number of parameters and returns the maximum value.
 (fn [x & xs] (reduce #(if (< %1 %2) %2 %1) x xs))   ;; O(N)
+
 (fn [& xs] (last (sort xs)))                        ;; O(logN)
 
+;; #39 Write a function which takes two sequences and returns the first item from each, then the second item from each, then the third, etc.
+(fn [a b]
+  (let [size (min (count a) (count b))]
+    (loop [n 0 r '()]
+      (if (< n size)
+        (recur
+          (inc n)
+          (cons (get b n) (cons (get a n) r)))
+        (reverse r)))))
 
-
+(fn [a b] (mapcat vector a b))
