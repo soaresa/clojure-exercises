@@ -85,3 +85,33 @@
         (reverse r)))))
 
 (fn [a b] (mapcat vector a b))
+
+;; #40 Write a function which separates the items of a sequence by an arbitrary value.
+(fn [elem s]
+  (reduce
+    (fn [result each]
+      (concat result (vector elem each)))
+    (vector (first s))
+    (rest s)))
+
+;; #41 Write a function which drops every Nth item from a sequence.
+#(reverse
+   (reduce
+     (fn [r i]
+       (if (> (mod (inc i) %2) 0)
+         (conj r (nth %1 i))
+         r))
+     '()
+     (range 0 (count %1))))
+
+;; #42 Write a function which calculates factorials.
+#(reduce
+   (fn [fac each]
+     (* fac each))
+   1
+   (range 2 (inc %1)))
+
+(fn [x] (reduce * (range 1 (inc x))))
+
+;; #43 Write a function which reverses the interleave process into x number of subsequences.
+#(->> (partition %2 %1) (apply map list))
